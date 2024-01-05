@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import CurrentWork from "./components/CurrentWork/CurrentWork";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="mt-28 w-[700px]">
         <HeroSection />
         <CurrentWork />
+        <Contact />
       </div>
     </div>
   );
