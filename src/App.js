@@ -1,20 +1,22 @@
 import "./App.css";
-import { AiFillAlipayCircle } from "react-icons/ai";
-import { motion } from "framer-motion";
 import Navbar from "./components/Navbar/Navbar";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 function App() {
   return (
-    <div className="h-screen border border-red-500 p-5 sm:border-blue-500 md:border-green-500 lg:border-purple-500 xl:border-yellow-500">
+    <div className="flex h-screen justify-center border border-red-500 p-5 sm:border-blue-500 md:border-green-500 lg:border-purple-500 xl:border-yellow-500">
       <BgFliterBlack />
       <Navbar />
+      <div className="mt-28 w-[700px]">
+        <HeroSection />
+      </div>
     </div>
   );
 }
 
 function BgFliterBlack() {
   return (
-    <div className="absolute inset-0 mx-auto h-[350px] w-full bg-[#0a0a0d] opacity-50" />
+    <div className="absolute inset-0 -z-10 mx-auto h-[350px] w-full bg-[#0a0a0d] opacity-50" />
   );
 }
 

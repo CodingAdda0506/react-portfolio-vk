@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <motion.div
-      className="absolute left-[20px] right-[20px] top-[20px] mx-auto flex h-[50px] max-w-[800px] items-start justify-between rounded-xl bg-[#1C162F] bg-opacity-60 p-2 px-4 font-bold text-white"
+      className="absolute left-[20px] right-[20px] top-[20px] mx-auto flex h-[50px] max-w-[700px] items-start justify-between rounded-xl bg-[#161129] bg-opacity-90 p-2 px-4 font-bold text-white"
       animate={
         activeHam
           ? {
