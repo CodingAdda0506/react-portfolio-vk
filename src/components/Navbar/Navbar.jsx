@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { CiTwitter } from "react-icons/ci";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [activeHam, setActiveHam] = useState(false);
 
@@ -112,6 +112,10 @@ function BackgroundGrandientCircle() {
       <div className="absolute -top-5 right-0 -z-20 h-[100px] w-[150px] rounded-full bg-yellow-500 blur-3xl sm:h-[200px] sm:w-[250px]" />
     </>
   );
+}
+
+function Hari() {
+  return <div className="">harikrishnan </div>;
 }
 
 export default Navbar;

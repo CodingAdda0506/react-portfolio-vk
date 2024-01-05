@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className=" text-white">
+    <div className="text-white">
       <div className="flex items-center gap-5">
         {/* image  */}
         <div className="w-[90px] overflow-hidden rounded-full">
