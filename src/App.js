@@ -3,16 +3,18 @@ import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/HeroSection";
 import CurrentWork from "./components/CurrentWork/CurrentWork";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="flex h-auto justify-center border border-red-500 p-5 sm:border-blue-500 md:border-green-500 lg:border-purple-500 xl:border-yellow-500">
+    <div className="flex h-auto justify-center overflow-hidden border border-red-500 p-5 sm:border-blue-500 md:border-green-500 lg:border-purple-500 xl:border-yellow-500">
       <BgFliterBlack />
       <Navbar />
       <div className="mt-28 w-[700px]">
         <HeroSection />
         <CurrentWork />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Card = ({ item }) => {
         <img src="/image.jpg" alt="" />
       </div>
       <div className="text-sm">
-        <p className="font-medium">{item.title}</p>
+        <p className="font-medium text-white">{item.title}</p>
         <p className="w-[180px] text-[#727888]">{item.desc}</p>
       </div>
     </div>
