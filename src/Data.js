@@ -24,3 +24,34 @@ export const currentWorkData = [
     desc: "Printable wireframe mockup template",
   },
 ];
+
+export const storyBlog = [
+  {
+    header: "Why I love Figma? Over other tools for creating illustrations",
+    desc: "Every time I use Figma to create illustrations, you guys always ask me why. Here are a few points",
+    date: "Oct 18, 2022",
+    tag: "Design ",
+    path: "#",
+  },
+  {
+    header: "Why I love Figma? Over other tools for creating illustrations",
+    desc: "Every time I use Figma to create illustrations, you guys always ask me why. Here are a few points",
+    date: "Oct 18, 2022",
+    tag: "Design ",
+    path: "#",
+  },
+  {
+    header: "Why I love Figma? Over other tools for creating illustrations",
+    desc: "Every time I use Figma to create illustrations, you guys always ask me why. Here are a few points",
+    date: "Oct 18, 2022",
+    tag: "Design ",
+    path: "#",
+  },
+  {
+    header: "Why I love Figma? Over other tools for creating illustrations",
+    desc: "Every time I use Figma to create illustrations, you guys always ask me why. Here are a few points",
+    date: "Oct 18, 2022",
+    tag: "Design ",
+    path: "#",
+  },
+];

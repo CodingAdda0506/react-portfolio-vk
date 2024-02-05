@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { CiTwitter } from "react-icons/ci";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [activeHam, setActiveHam] = useState(false);
 
@@ -33,19 +34,19 @@ const Navbar = () => {
           <div className="ml-5 hidden text-sm sm:block">
             <ul className="flex items-center justify-center gap-5 font-medium lowercase text-[#c7c7c7]">
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/">Work</a>
+                <Link to="/work">Work</Link>
               </li>
               <li>
-                <a href="/">Story</a>
+                <Link to="/story">Story</Link>
               </li>
               <li>
-                <a href="/">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="/">Links</a>
+                <Link to="/links">Links</Link>
               </li>
             </ul>
           </div>
@@ -89,11 +90,21 @@ const Navbar = () => {
                 }
           }
         >
-          <li>Home</li>
-          <li>Work</li>
-          <li>Story</li>
-          <li>About</li>
-          <li>Links</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/work">Work</Link>
+          </li>
+          <li>
+            <Link to="/story">Story</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/links">Links</Link>
+          </li>
         </motion.ul>
         <BackgroundGrandientCircle />
       </div>
